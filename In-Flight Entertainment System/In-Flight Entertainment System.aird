@@ -146181,6 +146181,15 @@
           <styles xmi:type="notation:ShapeStyle" xmi:id="_cxO7cbkZEfG8RP4Ab0SYfA" fontName="Segoe UI" fontHeight="8"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cxO7crkZEfG8RP4Ab0SYfA" x="50" y="620" width="381" height="111"/>
         </children>
+        <children xmi:type="notation:Node" xmi:id="_FqlJBLkZEfG8RP4Ab0SYfA" type="2002" element="_FqSOALkZEfG8RP4Ab0SYfA">
+          <children xmi:type="notation:Node" xmi:id="_FqlJB7kZEfG8RP4Ab0SYfA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_FqlJCLkZEfG8RP4Ab0SYfA" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_FqlJCbkZEfG8RP4Ab0SYfA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_FqlJCrkZEfG8RP4Ab0SYfA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_FqlJBbkZEfG8RP4Ab0SYfA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FqlJBrkZEfG8RP4Ab0SYfA" x="1250" y="360"/>
+        </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_EWMPB7kaEeSBQ7y8sEdlcw"/>
         <edges xmi:type="notation:Edge" xmi:id="_EWMPFLkaEeSBQ7y8sEdlcw" type="4001" element="_EWMQqbkaEeSBQ7y8sEdlcw" source="_EWMOLbkaEeSBQ7y8sEdlcw" target="_EWMOorkaEeSBQ7y8sEdlcw">
           <children xmi:type="notation:Node" xmi:id="_EWMPFbkaEeSBQ7y8sEdlcw" type="6001">
@@ -147041,6 +147050,15 @@
       <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="In-Flight%20Entertainment%20System.capella#a141cbf3-24c0-4fce-8c01-ed79e85f9a3c"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.pa:PhysicalComponent" href="In-Flight%20Entertainment%20System.capella#36cbe885-f541-4acf-986a-f6884d5a3b36"/>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_cxFxgLkZEfG8RP4Ab0SYfA" borderSize="1" borderSizeComputationExpression="1" borderColor="123,105,79" backgroundStyle="GradientTopToBottom" backgroundColor="255,255,220" foregroundColor="255,252,183">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='PAB_PC']/@conditionnalStyles.2/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_2:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='PAB_PC']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_FqSOALkZEfG8RP4Ab0SYfA" name="PC Y">
+      <target xmi:type="org.polarsys.capella.core.data.cs:Part" href="In-Flight%20Entertainment%20System.capella#aec971cc-78c1-4fa6-9efd-b33bd161bcce"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="In-Flight%20Entertainment%20System.capella#aec971cc-78c1-4fa6-9efd-b33bd161bcce"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.pa:PhysicalComponent" href="In-Flight%20Entertainment%20System.capella#41a3336f-6ed8-4ee5-a4e4-23416bf5d98e"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_FqSOAbkZEfG8RP4Ab0SYfA" borderSize="1" borderSizeComputationExpression="1" borderColor="123,105,79" backgroundStyle="GradientTopToBottom" backgroundColor="255,255,220" foregroundColor="255,252,183">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='PAB_PC']/@conditionnalStyles.2/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_2:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='PAB_PC']"/>
