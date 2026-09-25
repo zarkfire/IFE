@@ -14465,6 +14465,8 @@
               name="BEHAVIOURAL PCs" abstractType="#c8114705-19fa-41b3-b534-a342f70c2e51"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="50524faf-7a50-44cd-9c91-6cc9dc014894"
               name="REC DEFINITION" abstractType="#eab59749-a0be-4ff3-9321-0d1e4d2f4451"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="3b905411-562f-4286-b6c0-ee0e801ce15b"
+              name="PC 4" abstractType="#622d4fe4-f744-4b90-a25c-7f73460511b9"/>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="969cda44-d24c-4eeb-89f9-6313b1439e0e" targetElement="#724d6db9-9175-450b-8f05-023fcffec79c"
               sourceElement="#5158c762-8f3c-4947-98f4-4cf085492bf5"/>
@@ -15537,6 +15539,8 @@
               </ownedPhysicalComponents>
             </ownedPhysicalComponents>
           </ownedPhysicalComponents>
+          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+              id="622d4fe4-f744-4b90-a25c-7f73460511b9" name="PC 4" nature="NODE"/>
         </ownedPhysicalComponents>
         <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
             id="ca1519c5-e748-43ee-a81b-474a31b7b5ab" name="Passenger" actor="true"
