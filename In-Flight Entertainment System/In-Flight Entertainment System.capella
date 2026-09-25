@@ -14465,8 +14465,8 @@
               name="BEHAVIOURAL PCs" abstractType="#c8114705-19fa-41b3-b534-a342f70c2e51"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="50524faf-7a50-44cd-9c91-6cc9dc014894"
               name="REC DEFINITION" abstractType="#eab59749-a0be-4ff3-9321-0d1e4d2f4451"/>
-          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="3b905411-562f-4286-b6c0-ee0e801ce15b"
-              name="PC 4" abstractType="#622d4fe4-f744-4b90-a25c-7f73460511b9"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="eb2f28b2-9737-4ea7-a43d-fdfd26f331ea"
+              name="Useless Block" abstractType="#4150212f-7a4f-41c0-be60-ac7e8f5dd49b"/>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="969cda44-d24c-4eeb-89f9-6313b1439e0e" targetElement="#724d6db9-9175-450b-8f05-023fcffec79c"
               sourceElement="#5158c762-8f3c-4947-98f4-4cf085492bf5"/>
@@ -14532,6 +14532,8 @@
           </ownedPhysicalPath>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="40849d2f-1ebc-4bde-8d83-065004bdc7f5" name="Gigabit Ethernet" linkEnds="#6631f440-3a9b-48ba-8e5d-f0f70dcbeaa5 #b383a439-0b94-4639-acdb-45ea7400a14b"/>
+          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+              id="64afb502-ef19-481e-b519-adc26e1ce3d6" name="Useless Link" linkEnds="#8d35d9b1-d95e-4b5e-b005-f31b28fde838 #14ca07ec-515b-4e45-b919-688e6ef83950"/>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="5da29b86-88bd-4ced-9992-031690f87f99" name="IMPLEMENTATION PCs"
               nature="NODE">
@@ -14641,6 +14643,8 @@
                   id="4fe06916-33e1-4e46-9d90-1164bdf68972" name="PP 5"/>
               <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                   id="87083a2b-9b2a-4246-b5ba-e2d46771628e" name="PP 7"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                  id="8d35d9b1-d95e-4b5e-b005-f31b28fde838" name="PP 6"/>
             </ownedPhysicalComponents>
             <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
                 id="22cbea03-a250-4ea8-a6b3-63829196feb1" name="Private Video Display Unit"
@@ -15540,7 +15544,10 @@
             </ownedPhysicalComponents>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-              id="622d4fe4-f744-4b90-a25c-7f73460511b9" name="PC 4" nature="NODE"/>
+              id="4150212f-7a4f-41c0-be60-ac7e8f5dd49b" name="Useless Block" nature="NODE">
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="14ca07ec-515b-4e45-b919-688e6ef83950" name="PP 1"/>
+          </ownedPhysicalComponents>
         </ownedPhysicalComponents>
         <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
             id="ca1519c5-e748-43ee-a81b-474a31b7b5ab" name="Passenger" actor="true"
