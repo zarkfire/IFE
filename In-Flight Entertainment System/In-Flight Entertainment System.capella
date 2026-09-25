@@ -14471,6 +14471,8 @@
               name="PC 5" abstractType="#f0c4400d-cb39-4316-8359-fecfd46ea084"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="fad1174f-7a0f-4af6-bcfb-adad4fe7a3f0"
               name="PC 6" abstractType="#67630f78-61b9-4dd8-9701-fe426cb723d8"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="a141cbf3-24c0-4fce-8c01-ed79e85f9a3c"
+              name="PC x" abstractType="#36cbe885-f541-4acf-986a-f6884d5a3b36"/>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="969cda44-d24c-4eeb-89f9-6313b1439e0e" targetElement="#724d6db9-9175-450b-8f05-023fcffec79c"
               sourceElement="#5158c762-8f3c-4947-98f4-4cf085492bf5"/>
@@ -15556,6 +15558,8 @@
               id="f0c4400d-cb39-4316-8359-fecfd46ea084" name="PC 5" nature="NODE"/>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="67630f78-61b9-4dd8-9701-fe426cb723d8" name="PC 6" nature="NODE"/>
+          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+              id="36cbe885-f541-4acf-986a-f6884d5a3b36" name="PC x" nature="NODE"/>
         </ownedPhysicalComponents>
         <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
             id="ca1519c5-e748-43ee-a81b-474a31b7b5ab" name="Passenger" actor="true"
